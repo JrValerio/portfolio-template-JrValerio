@@ -1,0 +1,22 @@
+.about {
+  color: var(--color-white);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+@media (min-width: 520px) {
+  .about {
+    max-width: 56rem;
+    margin-inline: auto;
+    gap: 4rem;
+    flex-direction: row;
+  }
+}

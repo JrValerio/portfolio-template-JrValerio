@@ -1,0 +1,60 @@
+.footer {
+  background-color: #181818;
+  color: white;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid white;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.socialLink img {
+  width: 1.5rem;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.socialLink:hover img,
+.socialLink:focus img {
+  transform: scale(1.1);
+}
+
+.copyRight {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+@media (min-width: 520px) {
+  .footer {
+    max-width: 56rem;
+    margin-inline: auto;
+
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contactInfo {
+    justify-content: start;
+  }
+
+  .copyRight {
+    margin-left: auto;
+  }
+}

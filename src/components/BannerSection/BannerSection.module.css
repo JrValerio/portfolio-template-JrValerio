@@ -1,0 +1,47 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--color-black);
+  margin-top: 4rem;
+}
+
+.bannerContent {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 520px) {
+  .banner {
+    max-width: 56rem;
+    margin-inline: auto;
+
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  h1 {
+    max-width: 20rem;
+  }
+
+  .banner p {
+    max-width: 20rem;
+  }
+
+  .bannerImage {
+    width: auto;
+    max-width: 50%;
+  }
+}
