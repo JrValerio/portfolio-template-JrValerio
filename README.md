@@ -6,7 +6,7 @@ Este repositório contém o projeto do meu portfólio pessoal, desenvolvido como
 
 Este projeto de portfólio inclui uma apresentação detalhada do meu trabalho como desenvolvedor, destacando os projetos em que trabalhei, as tecnologias com as quais estou familiarizado e informações pessoais sobre minha jornada no campo da tecnologia.
 
-![Imagem do Projeto](https://github.com/Kenzie-Academy-Brasil-Developers/m3-s1-entrega-portfolio-template-JrValerio/blob/main/src/assets/Portif%C3%B3lio.png)
+![Imagem do Projeto](https://raw.githubusercontent.com/JrValerio/portfolio-template-JrValerio/main/src/assets/Portif%C3%B3lio.png)
 
 ## Tecnologias Utilizadas
 
@@ -30,8 +30,8 @@ Gostaria de expressar minha gratidão ao Prof. Fernando Feliciano pela orientaç
 
 ## Links
 
-- [Link do Repositório](https://github.com/Kenzie-Academy-Brasil-Developers/m3-s1-entrega-portfolio-template-JrValerio)
-- [Página do Projeto (Vercel)](https://m3-s1-entrega-portfolio-template-jr-valerio-3r3fyq6d5.vercel.app/)
+- [Link do Repositório](https://github.com/JrValerio/portfolio-template-JrValerio)
+- [Página do Projeto (Vercel)](https://portfolio-template-jr-valerio.vercel.app/)
 
 ---
 
