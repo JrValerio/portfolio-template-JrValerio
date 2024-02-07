@@ -13,12 +13,12 @@
 
 .contactInfo {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 1rem;
 }
 
 .socialLink img {
-  width: 1.5rem;
+  width: 1.3rem;
   height: auto;
   transition: transform 0.3s ease;
 }

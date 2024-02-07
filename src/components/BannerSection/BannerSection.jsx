@@ -1,3 +1,4 @@
+import { username } from '../../data/user';
 import styles from "./BannerSection.module.css";
 import BannerImg from "../../assets/banner-img.png";
 
@@ -6,7 +7,7 @@ export const BannerSection = () => {
     <>
       <section className={styles.banner}>
         <div className={styles.bannerContent}>
-          <span className="span">AMARO V S JUNIOR</span>
+          <span className="span">{username}</span>
           <h1 className="title1">Bem vindo ao meu portfólio</h1>
           <p className="paragraph">
             Descobrindo novos horizontes, uma linha de código de cada vez.
