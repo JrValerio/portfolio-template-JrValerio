@@ -1,6 +1,6 @@
-import { username } from '../../data/user';
+import { username } from "../../data/user";
 import styles from "./BannerSection.module.css";
-import BannerImg from "../../assets/banner-img.png";
+import avsjrImg from "../../assets/avsjr.png";
 
 export const BannerSection = () => {
   return (
@@ -22,8 +22,8 @@ export const BannerSection = () => {
           </a>
         </div>
         <img
-          src={BannerImg}
-          alt="Imagem do banner"
+          src={avsjrImg}
+          alt="Imagem do Amaro Junior vestindo um terno azul claro e gravata azul escuro"
           className={styles.bannerImage}
         />
       </section>

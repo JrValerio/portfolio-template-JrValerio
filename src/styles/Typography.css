@@ -47,7 +47,7 @@
   letter-spacing: 0.5px;
   font-weight: var(--font-weight-regular);
   font-family: "Inter", sans-serif;
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 .span {
